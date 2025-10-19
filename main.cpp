@@ -135,7 +135,7 @@ int main() {
 
 
     // Test printing
-    std::ofstream outFile("output.txt");
+    /*std::ofstream outFile("output.txt");
 
     outFile << "first line inputs: "<< n << " " << m << " " << d << "\n \n";
 
@@ -155,6 +155,6 @@ int main() {
     for(const auto& pair : adjList){
         outFile << "name: " << pair.second.name << " skepticism: " << pair.second.skepticism << " heard rumor: " <<  pair.second.heardRumor << "\n";
     }
-
+*/
     return 0;
 }
