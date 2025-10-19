@@ -85,12 +85,12 @@ void runRumor( std::unordered_map<std::string, Node> &adjList, int &d){
         u->visited = true;
         days++;
 
-        std::cout << "u: " << u->name << "\n     visiting: ";
+        //std::cout << "u: " << u->name << "\n     visiting: ";
 
         for(int i = 0; i < u->connections.size(); i++){
             Node* v = u->connections[i];
 
-            std::cout << v->name << ", ";
+            //std::cout << v->name << ", ";
 
             if(v->skepticism == 1 && v->visited == false){
 
@@ -98,7 +98,7 @@ void runRumor( std::unordered_map<std::string, Node> &adjList, int &d){
                 pq.push(v);
                 v->heardRumor = true;
                 v->visited= true;
-                std::cout<<v->heardRumor;
+                //std::cout<<v->heardRumor;
 
             } else if (v->visited == false) {
                 v->skepticism--;
@@ -106,7 +106,7 @@ void runRumor( std::unordered_map<std::string, Node> &adjList, int &d){
             }
         }
 
-        std::cout << "\n";
+        //std::cout << "\n";
     }
     
 
