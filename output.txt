@@ -1,1 +1,17 @@
 first line inputs: 3 2 1
+ 
+getting the people and there connections: 
+     name: Carol skepticism: 1
+          connections: Bob, 
+ 
+     name: Bob skepticism: 1
+          connections: Alice, Carol, 
+ 
+     name: Alice skepticism: 0
+          connections: Bob, 
+ 
+
+spread of the rumor: 
+name: Carol skepticism: 1 heard rumor: 0
+name: Bob skepticism: 1 heard rumor: 1
+name: Alice skepticism: 0 heard rumor: 0
