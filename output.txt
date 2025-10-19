@@ -1,0 +1,1 @@
+first line inputs: 3 2 1
